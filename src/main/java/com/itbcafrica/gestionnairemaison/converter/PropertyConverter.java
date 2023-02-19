@@ -11,8 +11,6 @@ public class PropertyConverter {
         propertyEntity.setTitle(propertyDTO.getTitle());
         propertyEntity.setAddress(propertyDTO.getAddress());
         propertyEntity.setDescription(propertyDTO.getDescription());
-        propertyEntity.setOwnerEmail(propertyDTO.getOwnerEmail());
-        propertyEntity.setOwnerName(propertyDTO.getOwnerName());
         propertyEntity.setPrice(propertyDTO.getPrice());
         return propertyEntity;
     }
@@ -23,8 +21,6 @@ public class PropertyConverter {
         propertyDTO.setTitle(propertyEntity.getTitle());
         propertyDTO.setAddress(propertyEntity.getAddress());
         propertyDTO.setDescription(propertyEntity.getDescription());
-        propertyDTO.setOwnerEmail(propertyEntity.getOwnerEmail());
-        propertyDTO.setOwnerName(propertyEntity.getOwnerName());
         propertyDTO.setPrice(propertyEntity.getPrice());
         return propertyDTO;
     }
