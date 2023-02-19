@@ -14,7 +14,7 @@ import java.util.List;
 @RequestMapping("/api/v1")
 public class PropertyController {
     @Value("${psm.dummy}")
-    private String dummy;
+    private String dummy2;
 
     @Autowired
     private PropertyService propertyService;
@@ -33,7 +33,7 @@ public class PropertyController {
 
     @GetMapping("/properties")
     public ResponseEntity<List<PropertyDTO>> getAllProperties() {
-        System.out.println("----- " + dummy + " --------");
+        System.out.println("----- " + dummy2 + " --------");
         List<PropertyDTO> list = propertyService.getAllProperties();
         ResponseEntity<List<PropertyDTO>> responseEntity = new ResponseEntity<>(list, HttpStatus.OK);
         return responseEntity;

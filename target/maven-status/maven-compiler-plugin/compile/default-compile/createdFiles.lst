@@ -1,0 +1,8 @@
+com\itbcafrica\gestionnairemaison\service\PropertyService.class
+com\itbcafrica\gestionnairemaison\dto\PropertyDTO.class
+com\itbcafrica\gestionnairemaison\GestionnaireMaisonApplication.class
+com\itbcafrica\gestionnairemaison\converter\PropertyConverter.class
+com\itbcafrica\gestionnairemaison\entity\PropertyEntity.class
+com\itbcafrica\gestionnairemaison\repository\PropertyRepository.class
+com\itbcafrica\gestionnairemaison\service\PropertyServiceImpl.class
+com\itbcafrica\gestionnairemaison\controller\PropertyController.class
