@@ -1,0 +1,21 @@
+psm:
+  dummy: this is a dummy  for dev environement
+
+spring:
+  datasource:
+    password: cameroun
+    url: jdbc:mysql://localhost:3306/pmsdb
+    username: root
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+        format_sql: true
+
+    show-sql: true
+  sql:
+    init:
+      mode: always
