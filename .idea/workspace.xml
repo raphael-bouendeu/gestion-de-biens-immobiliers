@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="298a3ccc-235c-46f9-bdc2-50ff4638b3db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/converter/UserConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/dto/UserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/entity/UserEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/service/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/converter/PropertyConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/converter/PropertyConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/entity/PropertyEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/entity/PropertyEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/service/PropertyServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/service/PropertyServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/converter/UserConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/converter/UserConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/dto/UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-test.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-test.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itbcafrica/gestionnairemaison/controller/PropertyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itbcafrica/gestionnairemaison/controller/PropertyController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itbcafrica/gestionnairemaison/converter/PropertyConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itbcafrica/gestionnairemaison/converter/PropertyConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itbcafrica/gestionnairemaison/entity/PropertyEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itbcafrica/gestionnairemaison/entity/PropertyEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itbcafrica/gestionnairemaison/service/PropertyServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itbcafrica/gestionnairemaison/service/PropertyServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +115,7 @@
       <updated>1676657306533</updated>
       <workItem from="1676657745037" duration="2703000" />
       <workItem from="1676693096419" duration="824000" />
-      <workItem from="1676694144754" duration="33321000" />
+      <workItem from="1676694144754" duration="35212000" />
     </task>
     <task id="LOCAL-00001" summary="add new message">
       <created>1676808783180</created>
@@ -140,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676809542172</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add user registration function">
+      <created>1676817935715</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676817935715</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,7 +189,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add new message" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new message" />
+    <MESSAGE value="add user registration function" />
+    <option name="LAST_COMMIT_MESSAGE" value="add user registration function" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -202,10 +208,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="721" y="153" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1676813948116" />
-    <state x="357" y="38" key="CommitChangelistDialog2" timestamp="1676809541107">
+    <state x="357" y="38" key="CommitChangelistDialog2" timestamp="1676853494842">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="357" y="38" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1676809541107" />
+    <state x="357" y="38" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1676853494842" />
     <state width="296" height="234" key="DatabaseViewActions_Filter" timestamp="1676715791429">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -214,42 +220,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="501" height="582" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1676720643539" />
-    <state x="184" y="76" width="1536" height="880" key="DiffContextDialog" timestamp="1676809456808">
+    <state x="184" y="76" width="1536" height="880" key="DiffContextDialog" timestamp="1676853483482">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="184" y="76" width="1536" height="880" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1676809456808" />
-    <state width="1865" height="369" key="GridCell.Tab.0.bottom" timestamp="1676809394660">
+    <state x="184" y="76" width="1536" height="880" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1676853483482" />
+    <state width="1865" height="394" key="GridCell.Tab.0.bottom" timestamp="1676852863512">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="369" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1676809394660" />
-    <state width="1865" height="369" key="GridCell.Tab.0.center" timestamp="1676809394660">
+    <state width="1865" height="394" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1676852863512" />
+    <state width="1865" height="394" key="GridCell.Tab.0.center" timestamp="1676852863511">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="369" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1676809394660" />
-    <state width="1865" height="369" key="GridCell.Tab.0.left" timestamp="1676809394660">
+    <state width="1865" height="394" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1676852863511" />
+    <state width="1865" height="394" key="GridCell.Tab.0.left" timestamp="1676852863511">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="369" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1676809394660" />
-    <state width="1865" height="369" key="GridCell.Tab.0.right" timestamp="1676809394660">
+    <state width="1865" height="394" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1676852863511" />
+    <state width="1865" height="394" key="GridCell.Tab.0.right" timestamp="1676852863512">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="369" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1676809394660" />
-    <state width="1865" height="369" key="GridCell.Tab.1.bottom" timestamp="1676809394665">
+    <state width="1865" height="394" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1676852863512" />
+    <state width="1865" height="394" key="GridCell.Tab.1.bottom" timestamp="1676852863512">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="369" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1676809394665" />
-    <state width="1865" height="369" key="GridCell.Tab.1.center" timestamp="1676809394665">
+    <state width="1865" height="394" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1676852863512" />
+    <state width="1865" height="394" key="GridCell.Tab.1.center" timestamp="1676852863512">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="369" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1676809394665" />
-    <state width="1865" height="369" key="GridCell.Tab.1.left" timestamp="1676809394660">
+    <state width="1865" height="394" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1676852863512" />
+    <state width="1865" height="394" key="GridCell.Tab.1.left" timestamp="1676852863512">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="369" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1676809394660" />
-    <state width="1865" height="369" key="GridCell.Tab.1.right" timestamp="1676809394665">
+    <state width="1865" height="394" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1676852863512" />
+    <state width="1865" height="394" key="GridCell.Tab.1.right" timestamp="1676852863512">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="369" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1676809394665" />
+    <state width="1865" height="394" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1676852863512" />
     <state width="1865" height="375" key="GridCell.Tab.2.bottom" timestamp="1676792098410">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -266,14 +272,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1865" height="375" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1676792098410" />
+    <state x="609" y="158" key="RollbackChangesDialog" timestamp="1676853446022">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="609" y="158" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1676853446022" />
     <state x="340" y="72" key="SettingsEditor" timestamp="1676808525475">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="340" y="72" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1676808525475" />
-    <state x="452" y="184" key="Vcs.Push.Dialog.v2" timestamp="1676809547958">
+    <state x="452" y="184" key="Vcs.Push.Dialog.v2" timestamp="1676817944934">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="452" y="184" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1676809547958" />
+    <state x="452" y="184" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1676817944934" />
     <state x="557" y="188" key="VcsDiffUtil.ChangesDialog" timestamp="1676809385821">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

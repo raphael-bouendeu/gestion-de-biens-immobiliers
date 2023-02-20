@@ -21,7 +21,6 @@ public class UserConverter {
         userDTO.setOwnerEmail(userEntity.getOwnerEmail());
         userDTO.setOwnerName(userEntity.getOwnerName());
         userDTO.setPhone(userEntity.getPhone());
-        userDTO.setPassword(userEntity.getPassword());
         return userDTO;
     }
 }
