@@ -2,9 +2,11 @@ package com.itbcafrica.gestionnairemaison.service;
 
 import com.itbcafrica.gestionnairemaison.converter.UserConverter;
 import com.itbcafrica.gestionnairemaison.dto.UserDTO;
+import com.itbcafrica.gestionnairemaison.entity.AddressEntity;
 import com.itbcafrica.gestionnairemaison.entity.UserEntity;
 import com.itbcafrica.gestionnairemaison.exception.BusinessException;
 import com.itbcafrica.gestionnairemaison.exception.ErrorModel;
+import com.itbcafrica.gestionnairemaison.repository.AddressRepository;
 import com.itbcafrica.gestionnairemaison.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -17,6 +19,9 @@ import java.util.Optional;
 public class UserServiceImpl implements UserService {
     @Autowired
     private UserRepository userRepository;
+
+    @Autowired
+    private AddressRepository addressRepository;
 
     @Autowired
     private UserConverter userConverter;
@@ -32,8 +37,17 @@ public class UserServiceImpl implements UserService {
             errorModelList.add(errorModel);
             throw new BusinessException(errorModelList);
         }
+        AddressEntity addressEntity = new AddressEntity();
+        addressEntity.setHouseNo(userDTO.getHouseNo());
+        addressEntity.setCity(userDTO.getCity());
+        addressEntity.setPostalCode(userDTO.getPostalCode());
+        addressEntity.setStreet(userDTO.getStreet());
+        addressEntity.setCountry(userDTO.getCountry());
+
         UserEntity userEntity = userConverter.convertDTOtoEntity(userDTO);
         userEntity = userRepository.save(userEntity);
+        addressEntity.setUserEntity(userEntity);
+        addressRepository.save(addressEntity);
         return userConverter.convertEntityToDTO(userEntity);
     }
 

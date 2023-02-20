@@ -2,18 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="298a3ccc-235c-46f9-bdc2-50ff4638b3db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/exception/BusinessException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/exception/CustomExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/exception/ErrorModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/entity/AddressEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/repository/AddressRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestionnaire-maison.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gestionnaire-maison.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/controller/PropertyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/controller/PropertyController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/converter/PropertyConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/converter/PropertyConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/dto/PropertyDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/dto/PropertyDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/dto/UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/entity/PropertyEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/entity/PropertyEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/exception/CustomExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/exception/CustomExceptionHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/repository/PropertyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/repository/PropertyRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/service/PropertyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/service/PropertyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/service/PropertyServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/service/PropertyServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/service/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/itbcafrica/gestionnairemaison/controller/PropertyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itbcafrica/gestionnairemaison/controller/PropertyController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itbcafrica/gestionnairemaison/converter/PropertyConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itbcafrica/gestionnairemaison/converter/PropertyConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itbcafrica/gestionnairemaison/dto/PropertyDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itbcafrica/gestionnairemaison/dto/PropertyDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itbcafrica/gestionnairemaison/entity/PropertyEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itbcafrica/gestionnairemaison/entity/PropertyEntity.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/itbcafrica/gestionnairemaison/repository/PropertyRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itbcafrica/gestionnairemaison/repository/PropertyRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itbcafrica/gestionnairemaison/service/PropertyService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itbcafrica/gestionnairemaison/service/PropertyService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itbcafrica/gestionnairemaison/service/PropertyServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itbcafrica/gestionnairemaison/service/PropertyServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +48,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -115,7 +126,7 @@
       <workItem from="1676657745037" duration="2703000" />
       <workItem from="1676693096419" duration="824000" />
       <workItem from="1676694144754" duration="35519000" />
-      <workItem from="1676853835752" duration="6456000" />
+      <workItem from="1676853835752" duration="16662000" />
     </task>
     <task id="LOCAL-00001" summary="add new message">
       <created>1676808783180</created>
@@ -159,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676854523414</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="user BusinessException for Login and Register">
+      <created>1676863415860</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676863415860</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,7 +224,8 @@
     <MESSAGE value="add user registration function" />
     <MESSAGE value="git ignore einige properties like the password" />
     <MESSAGE value="sonar analyse" />
-    <option name="LAST_COMMIT_MESSAGE" value="sonar analyse" />
+    <MESSAGE value="user BusinessException for Login and Register" />
+    <option name="LAST_COMMIT_MESSAGE" value="user BusinessException for Login and Register" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -220,14 +239,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="612" y="136" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1676716009389" />
-    <state x="721" y="153" key="#com.intellij.ide.util.MemberChooser" timestamp="1676813948116">
+    <state x="721" y="153" key="#com.intellij.ide.util.MemberChooser" timestamp="1676872360557">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="721" y="153" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1676813948116" />
-    <state x="357" y="38" key="CommitChangelistDialog2" timestamp="1676854531589">
+    <state x="721" y="153" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1676872360557" />
+    <state x="357" y="38" key="CommitChangelistDialog2" timestamp="1676863412414">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="357" y="38" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1676854531589" />
+    <state x="357" y="38" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1676863412414" />
     <state width="296" height="234" key="DatabaseViewActions_Filter" timestamp="1676715791429">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -240,38 +259,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="76" width="1536" height="880" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1676853483482" />
-    <state width="1865" height="394" key="GridCell.Tab.0.bottom" timestamp="1676862704364">
+    <state width="1865" height="275" key="GridCell.Tab.0.bottom" timestamp="1676874514991">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="394" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1676862704364" />
-    <state width="1865" height="394" key="GridCell.Tab.0.center" timestamp="1676862704364">
+    <state width="1865" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1676874514991" />
+    <state width="1865" height="275" key="GridCell.Tab.0.center" timestamp="1676874514990">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="394" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1676862704364" />
-    <state width="1865" height="394" key="GridCell.Tab.0.left" timestamp="1676862704364">
+    <state width="1865" height="275" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1676874514990" />
+    <state width="1865" height="275" key="GridCell.Tab.0.left" timestamp="1676874514990">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="394" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1676862704364" />
-    <state width="1865" height="394" key="GridCell.Tab.0.right" timestamp="1676862704364">
+    <state width="1865" height="275" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1676874514990" />
+    <state width="1865" height="275" key="GridCell.Tab.0.right" timestamp="1676874514991">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="394" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1676862704364" />
-    <state width="1865" height="394" key="GridCell.Tab.1.bottom" timestamp="1676862704364">
+    <state width="1865" height="275" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1676874514991" />
+    <state width="1865" height="275" key="GridCell.Tab.1.bottom" timestamp="1676874514991">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="394" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1676862704364" />
-    <state width="1865" height="394" key="GridCell.Tab.1.center" timestamp="1676862704364">
+    <state width="1865" height="275" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1676874514991" />
+    <state width="1865" height="275" key="GridCell.Tab.1.center" timestamp="1676874514991">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="394" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1676862704364" />
-    <state width="1865" height="394" key="GridCell.Tab.1.left" timestamp="1676862704364">
+    <state width="1865" height="275" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1676874514991" />
+    <state width="1865" height="275" key="GridCell.Tab.1.left" timestamp="1676874514991">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="394" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1676862704364" />
-    <state width="1865" height="394" key="GridCell.Tab.1.right" timestamp="1676862704364">
+    <state width="1865" height="275" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1676874514991" />
+    <state width="1865" height="275" key="GridCell.Tab.1.right" timestamp="1676874514991">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="394" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1676862704364" />
+    <state width="1865" height="275" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1676874514991" />
     <state width="1865" height="375" key="GridCell.Tab.2.bottom" timestamp="1676853766202">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -296,10 +315,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="340" y="72" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1676854103922" />
-    <state x="452" y="184" key="Vcs.Push.Dialog.v2" timestamp="1676853541104">
+    <state x="452" y="184" key="Vcs.Push.Dialog.v2" timestamp="1676863421887">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="452" y="184" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1676853541104" />
+    <state x="452" y="184" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1676863421887" />
     <state x="557" y="188" key="VcsDiffUtil.ChangesDialog" timestamp="1676809385821">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -310,7 +329,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/service/PropertyServiceImpl.java</url>
-          <line>76</line>
+          <line>95</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
