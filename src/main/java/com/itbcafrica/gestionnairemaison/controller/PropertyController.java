@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.lang.Nullable;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -33,7 +34,6 @@ public class PropertyController {
 
     @GetMapping("/properties")
     public ResponseEntity<List<PropertyDTO>> getAllProperties() {
-        System.out.println("----- " + dummy2 + " --------");
         List<PropertyDTO> list = propertyService.getAllProperties();
         ResponseEntity<List<PropertyDTO>> responseEntity = new ResponseEntity<>(list, HttpStatus.OK);
         return responseEntity;
@@ -61,7 +61,7 @@ public class PropertyController {
     }
 
     @DeleteMapping("/properties/{propertyId}")
-    public ResponseEntity deleteProperty(@PathVariable Long propertyId) {
+    public ResponseEntity<Void> deleteProperty(@Nullable @PathVariable Long propertyId) {
         propertyService.deleteProperty(propertyId);
         ResponseEntity<Void> responseEntity = new ResponseEntity<>(null, HttpStatus.NO_CONTENT);
         return responseEntity;
