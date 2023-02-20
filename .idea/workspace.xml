@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="298a3ccc-235c-46f9-bdc2-50ff4638b3db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/entity/AddressEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/repository/AddressRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestionnaire-maison.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gestionnaire-maison.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/controller/PropertyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/controller/PropertyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/converter/PropertyConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/converter/PropertyConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/dto/PropertyDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/dto/PropertyDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/dto/UserDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/entity/PropertyEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/entity/PropertyEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/exception/CustomExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/exception/CustomExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/repository/PropertyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/repository/PropertyRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/service/PropertyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/service/PropertyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/service/PropertyServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/service/PropertyServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/service/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itbcafrica/gestionnairemaison/controller/PropertyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itbcafrica/gestionnairemaison/controller/PropertyController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itbcafrica/gestionnairemaison/converter/PropertyConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itbcafrica/gestionnairemaison/converter/PropertyConverter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itbcafrica/gestionnairemaison/dto/PropertyDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itbcafrica/gestionnairemaison/dto/PropertyDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itbcafrica/gestionnairemaison/entity/PropertyEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itbcafrica/gestionnairemaison/entity/PropertyEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itbcafrica/gestionnairemaison/repository/PropertyRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itbcafrica/gestionnairemaison/repository/PropertyRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itbcafrica/gestionnairemaison/service/PropertyService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itbcafrica/gestionnairemaison/service/PropertyService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itbcafrica/gestionnairemaison/service/PropertyServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itbcafrica/gestionnairemaison/service/PropertyServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +104,7 @@
       <workItem from="1676657745037" duration="2703000" />
       <workItem from="1676693096419" duration="824000" />
       <workItem from="1676694144754" duration="35519000" />
-      <workItem from="1676853835752" duration="16662000" />
+      <workItem from="1676853835752" duration="17379000" />
     </task>
     <task id="LOCAL-00001" summary="add new message">
       <created>1676808783180</created>
@@ -177,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676863415860</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Address and one to one mapping">
+      <created>1676878324689</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1676878324689</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,7 +210,8 @@
     <MESSAGE value="git ignore einige properties like the password" />
     <MESSAGE value="sonar analyse" />
     <MESSAGE value="user BusinessException for Login and Register" />
-    <option name="LAST_COMMIT_MESSAGE" value="user BusinessException for Login and Register" />
+    <MESSAGE value="Address and one to one mapping" />
+    <option name="LAST_COMMIT_MESSAGE" value="Address and one to one mapping" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -243,10 +229,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="721" y="153" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1676872360557" />
-    <state x="357" y="38" key="CommitChangelistDialog2" timestamp="1676863412414">
+    <state x="357" y="38" key="CommitChangelistDialog2" timestamp="1676878273570">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="357" y="38" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1676863412414" />
+    <state x="357" y="38" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1676878273570" />
     <state width="296" height="234" key="DatabaseViewActions_Filter" timestamp="1676715791429">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -315,10 +301,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="340" y="72" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1676854103922" />
-    <state x="452" y="184" key="Vcs.Push.Dialog.v2" timestamp="1676863421887">
+    <state x="452" y="184" key="Vcs.Push.Dialog.v2" timestamp="1676878330782">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="452" y="184" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1676863421887" />
+    <state x="452" y="184" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1676878330782" />
     <state x="557" y="188" key="VcsDiffUtil.ChangesDialog" timestamp="1676809385821">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
