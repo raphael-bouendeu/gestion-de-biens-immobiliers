@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="298a3ccc-235c-46f9-bdc2-50ff4638b3db" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/514df233-8a45-4916-9473-ec14b8a90653.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/514df233-8a45-4916-9473-ec14b8a90653/storage_v2/_src_/database/PSMDB.qDyOBA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/514df233-8a45-4916-9473-ec14b8a90653/storage_v2/_src_/database/PSMDB.qDyOBA/schema/INFORMATION_SCHEMA.NBgcMw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/514df233-8a45-4916-9473-ec14b8a90653/storage_v2/_src_/database/PSMDB.qDyOBA/schema/PUBLIC.aaZQjQ.meta" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/exception/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/exception/CustomExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/exception/ErrorModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/controller/PropertyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/controller/PropertyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/repository/PropertyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/repository/PropertyRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itbcafrica/gestionnairemaison/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itbcafrica/gestionnairemaison/controller/PropertyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itbcafrica/gestionnairemaison/controller/PropertyController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itbcafrica/gestionnairemaison/repository/PropertyRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itbcafrica/gestionnairemaison/repository/PropertyRepository.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +66,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
@@ -108,7 +115,7 @@
       <workItem from="1676657745037" duration="2703000" />
       <workItem from="1676693096419" duration="824000" />
       <workItem from="1676694144754" duration="35519000" />
-      <workItem from="1676853835752" duration="607000" />
+      <workItem from="1676853835752" duration="6456000" />
     </task>
     <task id="LOCAL-00001" summary="add new message">
       <created>1676808783180</created>
@@ -145,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676853538021</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="sonar analyse">
+      <created>1676854523414</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1676854523414</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,7 +205,8 @@
     <MESSAGE value="add new message" />
     <MESSAGE value="add user registration function" />
     <MESSAGE value="git ignore einige properties like the password" />
-    <option name="LAST_COMMIT_MESSAGE" value="git ignore einige properties like the password" />
+    <MESSAGE value="sonar analyse" />
+    <option name="LAST_COMMIT_MESSAGE" value="sonar analyse" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -209,10 +224,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="721" y="153" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1676813948116" />
-    <state x="357" y="38" key="CommitChangelistDialog2" timestamp="1676853535475">
+    <state x="357" y="38" key="CommitChangelistDialog2" timestamp="1676854531589">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="357" y="38" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1676853535475" />
+    <state x="357" y="38" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1676854531589" />
     <state width="296" height="234" key="DatabaseViewActions_Filter" timestamp="1676715791429">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -225,38 +240,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="76" width="1536" height="880" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1676853483482" />
-    <state width="1865" height="433" key="GridCell.Tab.0.bottom" timestamp="1676853766207">
+    <state width="1865" height="394" key="GridCell.Tab.0.bottom" timestamp="1676862704364">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="433" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1676853766207" />
-    <state width="1865" height="433" key="GridCell.Tab.0.center" timestamp="1676853766207">
+    <state width="1865" height="394" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1676862704364" />
+    <state width="1865" height="394" key="GridCell.Tab.0.center" timestamp="1676862704364">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="433" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1676853766207" />
-    <state width="1865" height="433" key="GridCell.Tab.0.left" timestamp="1676853766207">
+    <state width="1865" height="394" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1676862704364" />
+    <state width="1865" height="394" key="GridCell.Tab.0.left" timestamp="1676862704364">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="433" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1676853766207" />
-    <state width="1865" height="433" key="GridCell.Tab.0.right" timestamp="1676853766207">
+    <state width="1865" height="394" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1676862704364" />
+    <state width="1865" height="394" key="GridCell.Tab.0.right" timestamp="1676862704364">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="433" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1676853766207" />
-    <state width="1865" height="375" key="GridCell.Tab.1.bottom" timestamp="1676853766202">
+    <state width="1865" height="394" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1676862704364" />
+    <state width="1865" height="394" key="GridCell.Tab.1.bottom" timestamp="1676862704364">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="375" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1676853766202" />
-    <state width="1865" height="375" key="GridCell.Tab.1.center" timestamp="1676853766202">
+    <state width="1865" height="394" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1676862704364" />
+    <state width="1865" height="394" key="GridCell.Tab.1.center" timestamp="1676862704364">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="375" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1676853766202" />
-    <state width="1865" height="375" key="GridCell.Tab.1.left" timestamp="1676853766202">
+    <state width="1865" height="394" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1676862704364" />
+    <state width="1865" height="394" key="GridCell.Tab.1.left" timestamp="1676862704364">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="375" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1676853766202" />
-    <state width="1865" height="375" key="GridCell.Tab.1.right" timestamp="1676853766202">
+    <state width="1865" height="394" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1676862704364" />
+    <state width="1865" height="394" key="GridCell.Tab.1.right" timestamp="1676862704364">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="375" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1676853766202" />
+    <state width="1865" height="394" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1676862704364" />
     <state width="1865" height="375" key="GridCell.Tab.2.bottom" timestamp="1676853766202">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
